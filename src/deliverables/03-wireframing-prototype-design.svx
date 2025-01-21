@@ -1,0 +1,20 @@
+---
+title: Wireframe & Prototype Design
+description: Interactive prototype(s) using design tools to demonstrate the app's primary features and user flow.
+date: '2025-01-21'
+categories:
+  - Interaction Design
+  - Accessibility and Inclusive Design
+  - Wireframes
+  - Mockups
+  - Colour Theory
+  - Typography
+  - ARIA Authoring Practices Guide (APG)
+published: true
+imageUrl: "https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+---
+
+<!-- toc section -->
+## Table of Contents
+<!-- end of toc section -->
+

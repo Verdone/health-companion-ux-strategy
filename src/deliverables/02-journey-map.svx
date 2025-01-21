@@ -1,0 +1,15 @@
+---
+title: User Journey Mapping
+description: Illustration of the typical user process that describes app interaction.
+date: '2025-01-19'
+categories:
+  - User Journey Map
+  - User Flow Diagrams
+published: true
+imageUrl: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+---
+
+<!-- toc section -->
+## Table of Contents
+<!-- end of toc section -->
+

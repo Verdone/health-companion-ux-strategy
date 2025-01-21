@@ -1,0 +1,159 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Sarah Drasner
+ * Sarah Drasner's[@sdras] Night Owl
+ * Ported by Sara vieria [@SaraVieira]
+ * Added by Souvik Mandal [@SimpleIndian]
+ */
+
+code[class*='language-'],
+pre[class*='language-'] {
+	color: #c9d1d9;
+	font-family: 'JetBrains Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono',
+		monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*='language-']::-moz-selection,
+pre[class*='language-'] ::-moz-selection,
+code[class*='language-']::-moz-selection,
+code[class*='language-'] ::-moz-selection {
+	text-shadow: none;
+	background: #6e7681;
+}
+
+pre[class*='language-']::selection,
+pre[class*='language-'] ::selection,
+code[class*='language-']::selection,
+code[class*='language-'] ::selection {
+	text-shadow: none;
+	background: #6e7681;
+}
+
+@media print {
+	code[class*='language-'],
+	pre[class*='language-'] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*='language-'] {
+	padding: 1em;
+	margin: 0.5em 0;
+	overflow: auto;
+	background: #0d1117;
+	border-radius: 8px;
+}
+
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+	color: #c9d1d9;
+	background: #0d1117;
+}
+
+:not(pre) > code[class*='language-'] {
+	padding: 0.2em 0.4em;
+	border-radius: 8px;
+	white-space: normal;
+	background: #161b22;
+}
+
+.token.comment,
+.token.prolog,
+.token.cdata {
+	color: #8b949e;
+}
+
+.token.punctuation {
+	color: #79c0ff;
+}
+
+.namespace {
+	color: #9ecbff;
+}
+
+.token.deleted {
+	color: #f85149;
+	font-style: italic;
+}
+
+.token.symbol,
+.token.property {
+	color: #56d364;
+}
+
+.token.tag,
+.token.operator,
+.token.keyword {
+	color: #d2a8ff;
+}
+
+.token.boolean {
+	color: #ff7b72;
+}
+
+.token.number {
+	color: #c69026;
+}
+
+.token.constant,
+.token.function,
+.token.builtin,
+.token.char {
+	color: #7ee787;
+}
+
+.token.selector,
+.token.doctype {
+	color: #79c0ff;
+	font-style: italic;
+}
+
+.token.attr-name,
+.token.inserted {
+	color: #a5d6ff;
+	font-style: italic;
+}
+
+.token.string,
+.token.url,
+.token.entity,
+.language-css .token.string,
+.style .token.string {
+	color: #a5d6ff;
+}
+
+.token.class-name,
+.token.atrule,
+.token.attr-value {
+	color: #d29922;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #ffdf5d;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}

@@ -32,10 +32,10 @@
 						alt="Visual Representation of {deliverable.title}"
 					/>
 				</Card.Content>
-				<Card.Footer class="flex items-center justify-between space-x-4">
-					<div class="flex items-center space-x-4">
-						<CalendarDays class="ml-2 size-4" />
-						<span class="text-sm">
+				<Card.Footer class="flex items-center justify-between md:space-x-4">
+					<div class="flex items-center space-x-1 md:space-x-4">
+						<CalendarDays class="size-4 md:ml-2" />
+						<span class="text-xs md:text-sm">
 							{formatDate(deliverable.date)}
 						</span>
 					</div>
@@ -58,8 +58,8 @@
 					alt="Visual Representation of Grades and Results"
 				/>
 			</Card.Content>
-			<Card.Footer class="flex items-center justify-between space-x-4">
-				<div class="flex items-center space-x-4">
+			<Card.Footer class="flex items-center justify-between md:space-x-4">
+				<div class="flex items-center md:space-x-4">
 					<CalendarDays class="ml-2 size-4" />
 					<span class="text-sm"> Feb 21, 2025 </span>
 				</div>

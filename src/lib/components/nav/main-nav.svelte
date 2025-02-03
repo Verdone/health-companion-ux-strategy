@@ -31,5 +31,14 @@
 		>
 			About
 		</a>
+		<a
+			href="/showcase"
+			class={cn(
+				'transition-colors hover:text-foreground/80',
+				$page.url.pathname.startsWith('/showcase') ? 'text-foreground' : 'text-foreground/60'
+			)}
+		>
+			Showcase
+		</a>
 	</nav>
 </div>

@@ -1,7 +1,7 @@
 ---
 title: Usability Testing
 description: Plan and execute usability tests with clear goals and user tasks. Gather actionable feedback on the prototype, analyze insights, and refine the design.
-date: '2025-01-22'
+date: '2025-02-01'
 categories:
   - Plan a Usability Test
   - Reiteration on Feedback

@@ -13,7 +13,7 @@
 		<MainNav />
 		<MobileNav />
 		<div class="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-			<nav class="flex items-center space-x-1">
+			<nav class="ml-auto flex items-center space-x-1">
 				<a href={siteConfig.links.figma} target="_blank" rel="noreferrer">
 					<div
 						class={cn(

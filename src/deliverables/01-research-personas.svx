@@ -1,47 +1,279 @@
 ---
 title: User Research & Persona Creation
 description: Research user needs and create detailed personas to guide app design.
-date: '2025-01-18'
+date: '2025-01-29'
 categories:
+  - UX Design
   - User Research
-  - Surveying
-  - Secondary Research
+  - Business Analysis
   - Persona Design
 published: true
 imageUrl: "https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-In this case study, user research and persona creation were essential to crafting a user-centric design. This involved gathering insights into user needs and translating them into actionable personas that guide app development.
+To begin crafting a user-centric design, research was conducted to gather user 
+needs and real user patterns, which were then translated into actionable personas.
 
 <!-- toc section -->
 ## Table of Contents
 <!-- end of toc section -->
 
+
 ## Conducting User Research
-To understand target users, a combination of qualitative and quantitative research methods is recommended.
+In order to truly understand target users, it was recommended to use a combination of 
+qualitative and quantitative research methods. 
 
-### Surveys
-Design and distribute surveys to gather broad insights into user preferences, behaviors, and challenges. Focus on clear and concise questions to maximize response rates.
+While market and/or competitor research could have also been conducted to determine how 
+users are interacting with similar applications, it was out of scope for the requirements 
+set out by this mini-project. The research described in this deliverable would be sufficient 
+in crafting personas focused on the behaviours and goals related to the specific domain of 
+this health application. The three research methods used were surveying, an interview, and 
+consulting external reports.
 
-### Interviews
-Conduct one-on-one interviews to dive deeper into individual user experiences, uncovering nuanced needs and expectations that surveys might not reveal.
 
-### Secondary Research
-Analyze existing studies, industry reports, and user data to supplement primary research. This approach provides context and identifies trends relevant to your target audience.
+### Survey (Primary Research)
+A survey was conducted via Google Forms to gather broad insights into user 
+preferences, behaviors, and challenges. Clear and concise questions were 
+carefully chosen (and approved by the professor,) to maximize response rates.
+
+#### Survey Results
+
+<details>
+  <summary>Part 1 of 4: Demographics</summary>
+
+  This section asked about the participant's general information.
+
+  ![Q1 Results](/images/deliverables/01/survey-res-01.png)
+
+  ![Q2 Results](/images/deliverables/01/survey-res-02.png)
+
+  ![Q3 Results](/images/deliverables/01/survey-res-03.png)
+
+  ![Q4 Results](/images/deliverables/01/survey-res-04.png)
+
+  ![Q5 Results](/images/deliverables/01/survey-res-05.png)
+  
+</details>
+
+<details>
+  <summary>Part 2 of 4: Understanding User Needs and Challenges</summary>
+
+  This section included questions on health/medication/appointment management, as 
+  well as communication with healthcare professionals.
+    
+  ![Q6 Results](/images/deliverables/01/survey-res-06.png)
+
+  ![Q7 Results](/images/deliverables/01/survey-res-07.png)
+
+  ![Q8 Results](/images/deliverables/01/survey-res-08.png)
+
+  ![Q9 Results](/images/deliverables/01/survey-res-09.png)
+
+  ![Q10 Results](/images/deliverables/01/survey-res-10.png)
+  
+</details>
+
+<details>
+  <summary>Part 3 of 4: Assessing App Usage Preferences</summary>
+  
+  This section includes questions on preferred features and technology comfort.
+
+  ![Q11 Results](/images/deliverables/01/survey-res-11.png)
+
+  ![Q12 Results](/images/deliverables/01/survey-res-12.png)
+
+  ![Q13 Results](/images/deliverables/01/survey-res-13.png)
+
+  ![Q14 Results](/images/deliverables/01/survey-res-14.png)
+
+  ![Q15 Results](/images/deliverables/01/survey-res-15.png)
+
+  ![Q16 Results](/images/deliverables/01/survey-res-16.png)
+
+  ![Q17 Results](/images/deliverables/01/survey-res-17.png)
+  
+</details>
+
+<details>
+  <summary>Part 4 of 4: Motivations and Pain Points</summary>
+
+  This section intended to capture the struggles and problems that users 
+  encounter in the context of personal healthcare.
+    
+  ![Q18 Results](/images/deliverables/01/survey-res-18.png)
+
+  ![Q19 Results](/images/deliverables/01/survey-res-19.png)
+  
+</details>
+
+#### Discussion and Analysis
+
+The survey results indicate two key user groups: young, tech-savvy users (18-30) 
+who rely on digital tools but struggle with organizing health tasks, and older users 
+(50+) who need accessibility features and simpler interfaces for medication 
+tracking and appointment management. Common pain points included long wait times 
+for provider responses, lack of reminders, and difficulty tracking health data. 
+Most users prefer iOS, and some require voice-over and large-text options. To 
+meet these needs, the app should focus on the following:
+
+- Automated reminders
+- Appointment scheduling
+- Provider communication
+- An intuitive, accessibility-friendly design in its Minimum Viable Product
+
+### Interview (Primary Research)
+
+This section covers transcribed data from an in-person interview. For privacy 
+concerns, their identity has been made anonymous. It took place on 
+January 18<sup>th</sup>, 2025.
+
+#### Interview Log
+
+The full interview details are provided below.
+
+**Interviewer's Questions (Q)**: Hi \[confidential\], thanks for taking the time to 
+get interviewed for this mini-project.
+
+**Anyonymous User's Answers (A)**: My pleasure.
+
+<details>
+  <summary>View all questions...</summary>
+
+  **Q**: What is your age range?
+
+  **A**: I fall under the 51 - 70 year-old age range.
+
+  **Q**: What is your employment status?
+
+  **A**: I'm currently employed under part-time work.
+
+  **Q**: Do you have a caregiver?
+
+  **A**: Nope.
+
+  **Q**: How many chronic conditions do you manage?
+
+  **A**: 0.
+
+  **Q**: Do you have any mobility limitations?
+
+  **A**: No.
+
+  **Q**: How do you keep track of your medical appointments?
+
+  **A**: I'll write them down in a planner or notebook. Sometimes I rely on text or 
+  email reminders from my specific healthcare provider.
+
+  **Q**: How do you organize your medications?
+
+  **A**: I have to use my own medication small pill box.
+
+  **Q**: What is the biggest challenge you face when accessing healthcare?
+
+  **A**: Definitely the limited hours of availability.
+
+  **Q**: What type of smartphone do you use?
+
+  **A**: An Android (Samsung) phone.
+
+  **Q**: How comfortable are you with using mobile applications?
+
+  **A**: Very comfortable, I tend to use multiple apps daily.
+
+  **Q**: How frequently do you use your smartphone?
+
+  **A**: At least several times a day.
+
+  **Q**: What features would you find most useful in a mobile health app?
+
+  **A**: Medication reminders and tracking. A close 2<sup>nd</sup> would be the 
+  option for appointment scheduling and reminders.
+
+  **Q**: How comfortable are you using mobile apps for health-related purposes?
+
+  **A**: Very comfortable. I'll regularly use apps for health and other purposes.
+
+  **Q**: Which health-related apps do you use?
+
+  **A**: Contour (for diabetes,) and MyAir (related to my sleep apnea machine).
+
+  **Q**: How's your experience with both apps?
+
+  **A**: It's been very good, you get real-time data through BlueTooth connection. 
+  I find that to be very convenient.
+
+  **Q**: What is the biggest challenge you face in managing your health?
+
+  **A**: I think it would be difficulty communicating with healthcare providers.
+
+  **Q**: What motivates you to use health-related technology?
+
+  **A**: Definitely improving my quality of life, as well as seeing progress in my 
+  current health condition.
+
+</details>
+
+#### Discussion and Analysis
+
+Unlike survey results, this interview allowed for some more nuanced needs and 
+expectations to get uncovered. Specifically, this interview brought attention 
+to the idea that apps with a Bluetooth connection to medical monitoring devices 
+could contribute to a marginally better user experience. Later in the design 
+process, inspiration will be drawn from applications like Contour or MyAir.
+
+
+### External Reports (Secondary Research)
+Analyze existing studies, industry reports, and user data to supplement primary research. 
+This approach provides context and identifies trends relevant to your target audience.
+
 
 ## Creating Personas
-Based on research findings, develop detailed personas to represent your target users.
+After a sufficient amount of data was gathered from observations and research findings, it was time to 
+develop detailed personas to represent the target users for this health app. 
 
-### Identifying User Goals
-Document the key objectives users aim to achieve through the app, such as managing health or improving productivity.
+The <a href="https://www.nngroup.com/articles/personas-study-guide/" target="_blank" class="text-primary text-primary/80 underline-offset-2 hover:underline">Nielsen Norman Group</a> defines personas as the following: 
 
-### Understanding Motivations
-Capture the motivations driving users to engage with the app, including convenience, time savings, or improved outcomes.
+> fictional representations of a cluster of \[the\] target users who exhibit 
+> similar attitudes, goals, and behaviors in relation to \[the\] product.
 
-### Highlighting Pain Points
-Identify common challenges and frustrations users face, ensuring the app addresses these effectively.
+It can be said that each persona would reflect a real user and their behavioural patterns, focusing on 
+the current "state" of how they would interact with the product. With respect to the requirements, 
+three personas were created for this case study. They were developed by following the set of steps shown below:
 
-### Defining Use Cases
-Describe how users would interact with the app in specific scenarios, highlighting features that meet their needs.
 
-By combining thorough research with detailed persona creation, you can build an app that aligns closely with user expectations and delivers a seamless experience.
+1. **Identifying User Goals** (e.g. managing personal health)
+2. **Understanding Motivations** (e.g. convenience, time savings)
+3. **Highlighting Pain Points** (common challenges and frustrations users face)
+4. **Defining Use Cases** (interactions with the app in specific scenarios) 
+
+
+<!-- ### Identifying User Goals
+  Document the key objectives users aim to achieve through the app, such as managing health or improving productivity.
+
+
+  ### Understanding Motivations
+  Capture the motivations driving users to engage with the app, including convenience, time savings, or improved outcomes.
+
+
+  ### Highlighting Pain Points
+  Identify common challenges and frustrations users face, ensuring the app addresses these effectively.
+
+
+  ### Defining Use Cases
+  Describe how users would interact with the app in specific scenarios, highlighting features that meet their needs.
+
+  By combining thorough research with detailed persona creation, you can build an app that aligns closely with user expectations and delivers a seamless experience. -->
+
+
+### Persona 1: Dwayne Michael Carter Jr.
+<script>
+  import Counter from "./counter.svelte"
+</script>
+
+<Counter />
+
+### Persona 2: Rodrigo Dargham
+
+![Persona Picture](/images/deliverables/01/persona-02.webp)
+
+### Persona 3: Charbel Gomez

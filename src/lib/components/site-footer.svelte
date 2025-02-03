@@ -20,8 +20,8 @@
 					rel="noreferrer"
 					class="font-medium underline underline-offset-4"
 				>
-					Licensing information</a
-				> for third-party materials.
+					Licensing Information here</a
+				>.
 			</span>
 		</div>
 	</div>

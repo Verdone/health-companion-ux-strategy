@@ -7,4 +7,6 @@
 	let { src, alt }: Props = $props();
 </script>
 
-<img {src} {alt} loading="lazy" />
+<div class="flex items-center justify-center">
+	<img {src} {alt} loading="lazy" class="rounded-sm border-4 border-solid border-primary" />
+</div>

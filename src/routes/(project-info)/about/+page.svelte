@@ -19,9 +19,10 @@
 		</p>
 		<p class="indent-5 text-lg font-normal text-foreground/80 lg:text-xl">
 			The study includes research, persona creation, user journey mapping, wireframing, prototyping,
-			and usability testing — all of which contribute to the design process of a software
-			engineering process. One motivation for taking the time to carefully make the right design
-			choices is to hopefully mitigate the cost of future engineering resources.
+			and usability testing — all of which are part of the interaction design process. One
+			motivation for taking the time to carefully make good choices in the Design Model is to
+			hopefully mitigate the cost of engineering resources down the line. Another motivation is to
+			ensure the best possible experience for end users, clients, and stakeholders.
 		</p>
 	</div>
 

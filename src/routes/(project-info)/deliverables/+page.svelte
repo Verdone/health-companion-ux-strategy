@@ -48,7 +48,7 @@
 		{/each}
 		<Card.Root class="flex min-h-96 flex-col space-y-4 rounded-lg border p-2 shadow-md">
 			<Card.Header class="space-y-2">
-				<Card.Title>6. Results</Card.Title>
+				<Card.Title>6. End Results</Card.Title>
 				<Card.Description>See the results and grading for this case study.</Card.Description>
 			</Card.Header>
 			<Card.Content class="flex flex-1 items-center justify-center py-4">

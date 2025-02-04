@@ -265,15 +265,11 @@ three personas were created for this case study. They were developed by followin
   By combining thorough research with detailed persona creation, you can build an app that aligns closely with user expectations and delivers a seamless experience. -->
 
 
-### Persona 1: Dwayne Michael Carter Jr.
+## Persona Showcase
 <script>
-  import Counter from "./counter.svelte"
+  import PersonaCardShowcase from "./persona-card-showcase.svelte"
 </script>
 
-<Counter />
-
-### Persona 2: Rodrigo Dargham
-
-![Persona Picture](/images/deliverables/01/persona-02.webp)
-
-### Persona 3: Charbel Gomez
+<div class="container flex items-center justify-center">
+    <PersonaCardShowcase />
+</div>

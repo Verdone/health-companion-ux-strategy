@@ -1,5 +1,5 @@
 ---
-title: User Research & Persona Creation
+title: IxD Approach, User Research, & Persona Creation
 description: Research user needs and create detailed personas to guide app design.
 date: '2025-01-29'
 categories:
@@ -11,12 +11,25 @@ published: true
 imageUrl: "https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-To begin crafting a user-centric design, research was conducted to gather user 
-needs and real user patterns, which were then translated into actionable personas.
+To begin crafting a user-centric design that follows user-centered design, research was conducted to gather user 
+needs and real user patterns. These were then translated into actionable personas and design solutions.
 
 <!-- toc section -->
 ## Table of Contents
 <!-- end of toc section -->
+
+## User-centered Design (UCD)
+
+The design approach that will be used for this mini-project is one where designers focus on the users 
+and their needs in each phase of the design process. A mix of surveying and external research were used 
+to develop an understanding of the user's needs, then apply them throughout the entire design process.
+
+
+![Flow Chart for UCD](https://public-media.interaction-design.org/images/uploads/2737d331018d4207a7bf7f5e90eebec0.png)
+
+
+If, later down the road, some requirements were not clear, UCD states to go back 
+and re-gather more information from the user. However, given the scope of this project, this wasn't necessary.
 
 
 ## Conducting User Research
@@ -223,9 +236,20 @@ process, inspiration will be drawn from applications like Contour or MyAir.
 
 
 ### External Reports (Secondary Research)
-Analyze existing studies, industry reports, and user data to supplement primary research. 
-This approach provides context and identifies trends relevant to your target audience.
 
+An important external resource that was consulted was Baymard Institute's 
+<a href="https://baymard.com/free-ux-research" target="_blank" class="text-primary text-primary/80 underline-offset-2 hover:underline">Free UX research bank</a>. 
+It is an ongoing project that consists of various reports and articles on UX design.
+
+
+#### Discussion and Analysis
+
+The external resource consulted for this case study definitely helped supplement the shortcomings 
+of the survey and interview, specifically regarding theming and design principles. Since the 
+target audience for this application covers a wide demographic / age range, the reports helped 
+with identifying design trends that can please everyone. In fact, 
+regardless of primary research, it might always be a good idea to consult existing UX research 
+conducted by professionals.
 
 ## Creating Personas
 After a sufficient amount of data was gathered from observations and research findings, it was time to 
@@ -273,3 +297,13 @@ three personas were created for this case study. They were developed by followin
 <div class="container flex items-center justify-center">
     <PersonaCardShowcase />
 </div>
+
+Now that clear user requirements have been specified, it's time to start establishing 
+the design solution. Given the needs of Alex, Sarah, and Mark, it can be said that the UI should be 
+accessible, intuitive, and generally simple. It will also visualize the following features from the 
+software system:
+
+1. Scheduling system
+2. Real-time provider communication
+3. Shared medication reminder system
+4. Automated appointment reminders

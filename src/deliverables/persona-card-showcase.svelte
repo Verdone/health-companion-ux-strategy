@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Button from '$lib/components/ui/button/button.svelte';
+	import * as Avatar from "$lib/components/ui/avatar/index.js";
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
 	import * as Card from '$lib/components/ui/card/index.js';
 
@@ -45,6 +45,16 @@
 						<Card.Content class="flex-grow">
 							<p><strong>Details:</strong> {p.details}</p>
 							<p><strong>Needs & Motivations:</strong> {p.needs}</p>
+							<div class="flex items-center space-x-4">
+								<Avatar.Root>
+									<Avatar.Image src="https://upload.wikimedia.org/wikipedia/commons/5/55/Happy_man.jpg" alt="Sofia Davis" />
+									<Avatar.Fallback>SD</Avatar.Fallback>
+								</Avatar.Root>
+								<div>
+									<p class="text-sm font-medium leading-none">Sofia Davis</p>
+									<p class="text-muted-foreground text-sm">m@example.com</p>
+								</div>
+							</div>
 						</Card.Content>
 						<Card.Footer>
 							footer

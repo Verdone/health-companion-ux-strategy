@@ -2,7 +2,7 @@ import { dev } from '$app/environment'
 
 export const siteConfig = {
 	name: "Health Companion",
-	url: dev ? "http://localhost:5173/" : "",
+	url: dev ? "http://localhost:5173/" : "https://health-companion-ux-strategy.vercel.app/",
 	description: "SOEN 357 Case Study: UX/UI Design of a Health Companion Super App. Concordia University, Winter 2025.",
 	links: {
 		github: "https://github.com/Verdone/health-companion-ux-strategy",

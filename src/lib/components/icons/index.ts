@@ -26,6 +26,7 @@ import type { SvelteComponent } from "svelte";
 import GitHub from "./github.svelte";
 import Logo from "./logo.svelte";
 import Hamburger from "./hamburger.svelte"
+import Google from "./google.svelte";
 
 export type Icon = SvelteComponent;
 
@@ -54,6 +55,7 @@ export const Icons = {
 	sun: SunMedium,
 	moon: Moon,
 	laptop: Laptop,
+	google: Google,
 	gitHub: GitHub,
 	Hamburger,
 };

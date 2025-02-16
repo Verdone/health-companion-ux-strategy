@@ -5,7 +5,7 @@ date: '2025-01-29'
 categories:
   - UX Design
   - User Research
-  - Business Analysis
+  - Data Collection
   - Persona Design
 published: true
 imageUrl: "https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -270,26 +270,8 @@ three personas were created for this case study. They were developed by followin
 3. **Highlighting Pain Points** (common challenges and frustrations users face)
 4. **Defining Use Cases** (interactions with the app in specific scenarios) 
 
-
-<!-- ### Identifying User Goals
-  Document the key objectives users aim to achieve through the app, such as managing health or improving productivity.
-
-
-  ### Understanding Motivations
-  Capture the motivations driving users to engage with the app, including convenience, time savings, or improved outcomes.
-
-
-  ### Highlighting Pain Points
-  Identify common challenges and frustrations users face, ensuring the app addresses these effectively.
-
-
-  ### Defining Use Cases
-  Describe how users would interact with the app in specific scenarios, highlighting features that meet their needs.
-
-  By combining thorough research with detailed persona creation, you can build an app that aligns closely with user expectations and delivers a seamless experience. -->
-
-
 ## Persona Showcase
+
 <script>
   import PersonaCardShowcase from "./persona-card-showcase.svelte"
 </script>
@@ -303,7 +285,20 @@ the design solution. Given the needs of Alex, Sarah, and Mark, it can be said th
 accessible, intuitive, and generally simple. It will also visualize the following features from the 
 software system:
 
-1. Scheduling system
-2. Real-time provider communication
-3. Shared medication reminder system
-4. Automated appointment reminders
+1. Scheduling system with real-time doctor availability and option for messaging
+2. Medication registration system
+3. Shared family communication via group dashboard
+4. Reminder system for medication, appointments, and more
+
+## Closing Thoughts
+
+This phase established a strong foundation by identifying user needs, pain points, 
+and goals through research and persona creation. The main idea is to answer the question 
+<em>"Who are we designing for?"</em> when collecting data and creating personas.
+
+The findings from this analysis help answer the fundamental question: 
+"Who are we designing for?". The diverse range of participants — 
+spanning different age groups, employment statuses, and living situations — 
+demonstrates the need for a flexible and adaptable healthcare app.
+
+With clear insights in place, the next step was to focus on translating them into journey maps.

@@ -9,6 +9,137 @@ published: true
 imageUrl: "https://images.unsplash.com/photo-1587440871875-191322ee64b0?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
+We have now entered the process of evaluating against requirements. The primary objective of usability testing is to assess how efficiently and intuitively users interact with the prototype.
+
 <!-- toc section -->
 ## Table of Contents
 <!-- end of toc section -->
+
+## Defining Test Goals
+
+It was important to properly identify usability issues, gauge user satisfaction, 
+and collect actionable insights to refine the design. Key questions included:
+
+- Can users complete essential tasks without confusion?
+- Are there friction points that hinder efficiency?
+- Does the interface align with user expectations?
+
+![Flow Chart for UCD](https://miro.medium.com/v2/resize:fit:720/format:webp/1*azStD5FczagYRnhLWLqk0A.png)
+
+Of course, there are some other forms of testing, but this case study only considers 
+usability testing. Even at that, scope was limited: to ensure a representative sample, 
+participants consisted of family members or friends that aligned with the previously defined personas:
+
+- Alex Carter (Busy Professional) – Testing appointment scheduling efficiency
+- Sarah Thompson (Family Caregiver) – Evaluating medication reminders and accessibility (a11y)
+- Mark Davis (Two Senior Users) – Assessing text readability and overall navigation
+
+
+## Testing Methodology
+
+We employed a moderated remote usability test approach, allowing participants 
+to interact with the prototype while providing real-time feedback. 
+Each session lasted 5-10 minutes and was conducted via internal communication 
+(namely video conferencing with screen sharing).
+
+Participants were given the following core tasks/tests to complete:
+
+- Test 1: Explain what steps should be taken on the app to schedule a doctor's appointment
+- Test 2: Attempt to schedule an appointment and fictitious medication tracking item
+- Test 3: Attempt to toggle different settings using keyboard, screen reader, etc.
+
+Participants were encouraged to think aloud. This worked out well, as they were 
+able to clearly describe their thoughts and pain points in real time.
+
+
+## Results and Insights
+
+Unfortunately, the process of uploading .mp3 or .mp4 videos to this case study 
+was tricky without keeping the identity of participants anonymous. As this is not 
+an explicit requirement anyways in the mini-project description, it was omitted 
+entirely. The solution was to list out the results in point form:
+
+
+### Test 1: Predicting Steps to Schedule an Appointment
+
+- Success rate: 75% (3/4 participants)
+- Common issues: Users struggled to locate settings for appointment cancellations
+
+Out of the four participants, only one did not list out the proper series of steps for 
+scheduling a doctor's appointment. The correct steps were:
+
+1. Login/Register an Account
+2. Navigate to "Appointments page"
+3. Book an appointment with an available doctor.
+4. (Optionally) set a reminder.
+
+The reason for one missing success is due to the assumption that users didn't need 
+to login to actually book an appointment with a doctor. While this is not indicative of a bad 
+UI design, it does pose an interesting question as to whether users _should_ need to register 
+an account to book an appointment (or if they should just have the option to book an appointment as 
+a guest and then provide all then necessary credentials via form inputs).
+
+
+### Test 2: Navigation & Fictitional Task Completion Rates
+
+- Success Rate: 100%
+- Common Issues: Misconception of search feature from 1 participant
+
+The perfect success rate was great news. It reinforced the principle that the app 
+was simple and straightforward to use. Besides this, the one source of friction 
+was discoverability: search features on the "Medications" and "Appointments" page were not immediately intuitive. 
+
+In the design, it was not made clear that the search fields for medication and doctors are 
+meant to search a database for records of each, not filter through results on the current data table. 
+One solution would be to improve the search inputs for each, and include a separate search field directly next 
+to the data table. This would then be similar to what was done on the "Dashboard" page, but was unfortunately not consistently applied to the other two mock-up pages.
+
+Despite this issue, it can still be said that users were able to complete essential 
+tasks without confusion.
+
+
+### Test 3: A11y & Customization Settings
+
+- Success Rate: 100%
+- Common Issues: ambiguous ARIA labels
+
+Using keyboard bindings and screenreader tools like [WebAnywhere](https://webinsight.cs.washington.edu/wa/), 
+this test was ultimately a success for examining the "Settings" mock-up page. This was expected 
+as the project included 'aria' attributes and is also using [shadcn-svelte](https://shadcn-svelte.com/) for Svelte 5, which 
+adheres to the WAI-ARIA design pattern. Despite this, some labels were ambiguous.
+
+There were two instances of a label being ambiguous: the first was the "Healthcare Super News", 
+which didn't explicitly say whether news would be provided on marketing, on new features, or on 
+something entirely different. The next label that was left open to interpretation was the "General Accessibility Enhancements". 
+
+Originally, the "news" option would inform users on new features, and the "general accessibility settings" would intend to toggle 
+things like contrast colours or an even darker website mode for 'night owls'. However, while both of 
+these seemed clear to the person designing it, they were left undocumented in the final mockup. This is something 
+that will be discussed in the next report when discussing iterative processes in User-Centered Design.
+
+
+## User Expectations vs. Real Feedback
+
+Here is where it was established whether user assumptions aligned from their actual experience during testing.
+
+All four participants loved the colour scheme, typography, layout, and features for this website. 
+Not only were they straightforward, but they also seemed promising espescially when grouped togehter 
+into a single application.
+
+The only drawbacks were the common issues mentioned above; otherwise, the application's design mock-ups were 
+very well-received. These issues didn't hinder efficiency, nor did they cause users to diverge from their internal 
+Expectations when interacting with the UI. Despite the limited sample size, the usability testing portion of this case study could still 
+be considered a success.
+
+
+## Closing Thoughts
+
+To address the common issues (assuming the role of a UI/UX designer,) I would first prioritize them 
+based on severity and frequency. Next, I would implement UI refinements, 
+including clearer labels, improved navigation, and clearer a11y features. 
+Finally, I would conduct a set of follow-up usability tests to validate improvements once more.
+
+While the core functionality was effective, refinements were necessary to 
+enhance the app's current features. Future testing would validate these 
+improvements and ensure continued alignment with user needs. In any case, a full 
+section for reflecting on these details is provided in the next and final report.

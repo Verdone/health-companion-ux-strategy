@@ -9,7 +9,105 @@ published: true
 imageUrl: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
+After understanding context of use and outlining user requirements, it's time 
+to move onto design solutions.
+
 <!-- toc section -->
 ## Table of Contents
 <!-- end of toc section -->
 
+## Understanding Journey Maps
+
+## The 8-Step Process
+
+### 1. Choosing a Scope
+
+The scope defines the boundaries of the journey map and hopes to
+keep efforts targeted and relevant. This was already established in the 
+previous report and the Mini-Project requirements.
+
+
+### 2. Creation of Persona(s)
+
+Again, this was another step that was addressed in the previous deliverable. 
+In any case, personas represent distinct user groups, 
+each with specific needs, frustrations, and 
+behaviours. The personas — Alex Carter, Sarah Thompson, and Mark Davis — 
+serve as foundational guides for mapping realistic user journeys.
+
+
+### 3. Defining Scenarios and User Expectations
+
+A scenario is a specific use case that illustrates how a persona interacts with 
+the app. For instance, Alex Carter might need to book a last-minute doctor’s 
+appointment, while Sarah Thompson must ensure her family members receive their 
+medications. The main idea is to ensure that the journey maps align with 
+real-world situations and the persona's characteristics.
+
+
+### 4. Creating a List of Touchpoints
+
+Touchpoints refer to the interactions a user has with the app, 
+such as receiving an appointment reminder or logging into the dashboard. 
+These were essentially outlined in the persona cards from the last report.
+
+Identifying these helps in designing seamless experiences. 
+For example, the "Reminders" mock-up was designed specifically to 
+address user frustrations regarding missed medications or follow-ups.
+
+
+### 5. Take User Intent into Mind
+
+User intent and decision-making varies at different stages of interaction. 
+Someone opening the "Medications" page might want to track doses, whereas a 
+user on the "Settings" page may seek accessibility (a11y) customization. 
+Mapping these intents is key to actually providing the right information 
+and features at the right time.
+
+
+### 6. Sketch The Journey
+
+This part involves creating a visual representation of the journey to help in 
+understanding how users navigate through various touchpoints. 
+Wireframes (low/mid-fidelity prototypes,) and mockups (high-fidelity) serve 
+as practical sketches of these journeys, illustrating processes mentioned in the 
+previous step.
+
+
+### 7. Considering Emotional State for Each Step of Interaction
+
+Much like intent or decisions, the end users’ emotions fluctuate 
+throughout their "journey". For instance, our third persona, Mark Davis, 
+might feel frustration when struggling with small text but relief 
+when he finds an easy-to-read large-text option in Settings. Considering these 
+emotional states plays a big part in designing empathetic solutions that minimize 
+frustration and enhance usability. 
+
+
+### 8. Validating and Refining the User Journey
+
+Since there was no access to usability testing sessions or app analytics, 
+an alternative form of revision need to be employed. The most straightforward 
+approach was to consider the following: _"Did I create journey maps that faithfully map to the pain points of the personas?"_
+
+This cross-checking validation process confirmed that the designed workflows 
+did in fact align with the genuine needs and frustrations outlined in user 
+research. The results are presented in the next section.
+
+## Results
+
+  ![Journey Map for Persona 1](/images/deliverables/02/ujm-1.png)
+
+  ![Journey Map for Persona 2](/images/deliverables/02/ujm-2.png)
+
+  ![Journey Map for Persona 3](/images/deliverables/02/ujm-3.png)
+
+## Closing Thoughts
+
+User journey mapping transforms abstract user needs into actionable design 
+insights. By systematically defining personas, mapping real-world scenarios, 
+and anticipating emotional responses, we create a structured foundation for 
+intuitive and efficient interactions. The resulting journey maps not only 
+validate design decisions but also serve as a blueprint for continuous 
+refinement (as part of User-Centered Design.) After all, the app should evolve
+ in alignment with user behavior and expectations.

@@ -8,6 +8,93 @@ published: true
 imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
+It's now time to finalize the process of evaluating against requirements. This 
+report includes a general reflection on previous steps of the case study, 
+and an analysis of User-Centered Design (UCD).
+
 <!-- toc section -->
 ## Table of Contents
 <!-- end of toc section -->
+
+
+## UCD and UX Process Analysis
+
+The UX process followed a structured methodology, 
+including research, journey mapping, wireframing, 
+prototyping, usability testing, and adhering to other
+ User-Centered Design principles.
+
+
+### Identifying User Needs
+
+The process began with data collection through Google Forms, 
+leading to the creation of user personas. 
+Given the scope and size of the project, three distinct personas were developed:
+
+Alex Carter (Busy Professional): Needed a streamlined appointment booking system and real-time notifications.
+
+Sarah Thompson (Family Caregiver): Required a shared medication reminder system to ensure her family members adhered to their schedules.
+
+Mark Davis (Health-Conscious Senior): Sought accessibility features such as larger text, simple navigation, and voice-over support.
+
+With their frustrations, behaviors, and expectations all identified, 
+the app design was beginning to be shaped around 
+meeting their specific needs. This also made for clear requirements, which meant 
+that there was no need to re-gather information from users to continue with user-centered design.
+
+
+### Journey Mapping
+
+Journey maps were created to analyze how each persona interacted 
+with the app at different touchpoints. It followed the 8-step process that 
+was provided to students in SOEN 357 lectures, and worked well for laying the groundwork 
+for prototyping.
+
+
+### Wireframing and Prototype Design
+
+Wireframes served as the foundation for structuring the 
+app’s interface (which later evolved into high-fidelity, clickable prototypes). 
+Key screens developed included a homepage, login/logout, dashboard, and more.
+Additionally, these screens integrated a consistent colour scheme, typography, and 
+adhered to the WAI-ARIA design pattern.
+
+
+## Usability Testing
+
+The usability testing phase assessed how intuitively users could 
+interact with the app. Anonymous participants evaluated the product and their user experience 
+throughout, while simultaneously completing tests that would reveal any issues.
+Despite minor concerns, the overall feedback was positive and addressed key questions, 
+which confirms that the interface was intuitive and aligned with user expectations.
+
+
+## Overcoming Challenges in UCD
+
+User-Centered Design (UCD) was very similar to Interaction Design. Both were explored during 
+lectures, but the main idea of both was to put an emphasis for involving users and taking a 
+user-centered approach to design. This would ensure that user needs drive every stage of 
+the design process. However, it presents specific challenges that must be addressed systematically.
+
+First, users required a feature-rich interface without overwhelming 
+complexity. To address this, prototypes focused on minimalism in UI design 
+and intuitive navigation.
+
+Second, designers may unintentionally introduce biases based on 
+their underlying assumptions. This is why it was important to collect data and perform 
+usability testing: both consisted of involving diverse user groups to ensure inclusivity and balance in design decisions.
+
+Finally, on a larger scale, user expectations change over time. This requires continuous 
+updates. Despite being out of the scope of this project, it should still be noted that one 
+way to address this would be to implement Agile methodologies. This would allow for iterative improvements based on real-time user insights.
+
+
+## Conclusion
+
+The UX process successfully translated user research into a 
+functional and user-friendly app design. The iterative approach 
+of journey mapping, wireframing, and usability testing resulted in 
+a final prototype that met user needs and addressed
+common usability challenges. All of the design solutions would not have been 
+possible without the data collection methods and processes explored during lectures,
+as well as the open-source UI libraries that are avaiable online.

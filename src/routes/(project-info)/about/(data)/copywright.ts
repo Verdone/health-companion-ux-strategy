@@ -64,7 +64,7 @@ export const resources: Resource[] = [
     url: 'https://vercel.com/',
     licenseUrl: 'https://github.com/vercel/vercel/blob/main/LICENSE',
     licenseText:
-      'Vercel is a cloud platform for frontend development and serverless functions. It allows anyone to deploy and host their own websites/applications.',
+      'Vercel is a cloud platform for deploying web applications and handling serverless functions.',
     fullLicenseName: 'Apache License 2.0'
   }
 ];

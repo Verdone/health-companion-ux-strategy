@@ -1,7 +1,6 @@
 <script lang="ts">
 	export let url: string = 'default';
 	export let imageSrc: string = '';
-	export let videoSrc: string = '';
 	export let width: number = 1200;
 	export let height: number = 700;
 	// Spread props can be handled manually if specific additional props are needed
@@ -117,25 +116,6 @@
 				preserveAspectRatio="xMidYMid slice"
 				clip-path="url(#roundedBottom)"
 			/>
-		{/if}
-		{#if videoSrc}
-			<foreignObject
-				x="1"
-				y="52"
-				width="1200"
-				height="700"
-				preserveAspectRatio="xMidYMid slice"
-				clip-path="url(#roundedBottom)"
-			>
-				<video
-					class="size-full overflow-hidden object-cover"
-					src={videoSrc}
-					autoPlay
-					loop
-					muted
-					playsInline
-				/>
-			</foreignObject>
 		{/if}
 	</g>
 	<defs>

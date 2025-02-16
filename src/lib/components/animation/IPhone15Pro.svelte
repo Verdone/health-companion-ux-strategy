@@ -2,7 +2,6 @@
 	export let width: number = 433;
 	export let height: number = 882;
 	export let src: string = '';
-	export let videoSrc: string = '';
 </script>
 
 <svg
@@ -58,19 +57,6 @@
 			clip-path="url(#roundedCorners)"
 			class="-z-10"
 		/>
-	{/if}
-
-	{#if videoSrc}
-		<foreignObject x="21.25" y="19.25" width="389.5" height="843.5">
-			<video
-				class="size-full overflow-hidden rounded-[55.75px] object-cover"
-				src={videoSrc}
-				autoplay
-				loop
-				muted
-				playsinline
-			/>
-		</foreignObject>
 	{/if}
 
 	<path

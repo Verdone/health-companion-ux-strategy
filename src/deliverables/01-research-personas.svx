@@ -294,11 +294,8 @@ software system:
 
 This phase established a strong foundation by identifying user needs, pain points, 
 and goals through research and persona creation. The main idea is to answer the question 
-<em>"Who are we designing for?"</em> when collecting data and creating personas.
-
-The findings from this analysis help answer the fundamental question: 
-"Who are we designing for?". The diverse range of participants — 
+_"Who are we designing for?"_ when collecting data and creating personas. The diverse range of participants — 
 spanning different age groups, employment statuses, and living situations — 
-demonstrates the need for a flexible and adaptable healthcare app.
+demonstrated the need for a flexible healthcare app.
 
 With clear insights in place, the next step was to focus on translating them into journey maps.

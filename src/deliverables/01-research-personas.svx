@@ -11,7 +11,7 @@ published: true
 imageUrl: "https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
-To begin crafting a user-centric design that follows user-centered design, research was conducted to gather user 
+To begin crafting a user-centric design, research was conducted to gather user 
 needs and real user patterns. These were then translated into actionable personas and design solutions.
 
 <!-- toc section -->

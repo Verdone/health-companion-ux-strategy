@@ -61,6 +61,26 @@
 			</div>
 		</div>
 
+		<section class="py-16">
+			<div class="container mx-auto px-4 text-center">
+				<h2 class="mb-4 text-3xl font-bold">Figma Showcase</h2>
+				<p class="mb-6 text-lg text-foreground/80">
+					Explore the personas, user journey and early prototype mockups.
+				</p>
+				<div class="flex items-center justify-center">
+					<iframe
+						title="figma showcase"
+						style="border: 1px solid rgba(0, 0, 0, 0.1);"
+						class="rounded-sm"
+						width="800"
+						height="450"
+						src="https://embed.figma.com/board/jzcSctJtZTzZmrwf0H0fdr/User-Journey-Maps?embed-host=share"
+						allowfullscreen
+					></iframe>
+				</div>
+			</div>
+		</section>
+
 		<section class="py-16 bg-gray-200 dark:bg-gray-700 rounded-sm">
 			<div class="container mx-auto px-4 text-center">
 				<h2 class="mb-6 text-3xl font-bold">Application Features</h2>
@@ -95,26 +115,6 @@
 							your family plan.
 						</p>
 					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="py-16">
-			<div class="container mx-auto px-4 text-center">
-				<h2 class="mb-4 text-3xl font-bold">Figma Showcase</h2>
-				<p class="mb-6 text-lg text-foreground/80">
-					Explore the personas, user journey and early prototype mockups.
-				</p>
-				<div class="flex items-center justify-center">
-					<iframe
-						title="figma showcase"
-						style="border: 1px solid rgba(0, 0, 0, 0.1);"
-						class="rounded-sm"
-						width="800"
-						height="450"
-						src="https://embed.figma.com/board/jzcSctJtZTzZmrwf0H0fdr/User-Journey-Maps?embed-host=share"
-						allowfullscreen
-					></iframe>
 				</div>
 			</div>
 		</section>
